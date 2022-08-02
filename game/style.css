@@ -1,0 +1,23 @@
+body{
+    background-color: rgb(217, 218, 220);
+}
+img{
+    height:80%;
+    width: 80%;
+}
+.game{
+    width: 40%;
+    position: absolute;
+    left: 50%;
+    top: 30%;
+}
+button{
+    height:8em;
+    width:8em;
+    padding: .8em;
+    border-radius: 40%;
+    margin: 1em;
+    box-shadow: 0 8px 24px rgb(26, 15, 68);
+    border: 1px solid transparent;
+    background-color: rgb(134, 127, 145);
+}
