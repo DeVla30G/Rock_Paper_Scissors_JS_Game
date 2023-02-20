@@ -37,11 +37,12 @@ for (i=0; i<choices.length; i++){
 const getResult = () => {
 if (userChoice === computerChoice ){
     return "NULL";
-} else if (userChoice + computerChoice === "pierreciseaux" || userChoice + computerChoice === "ciseauxpapier" || userChoice + computerChoice === "papierpierre"  ) {
-    return "YOU WIN"
+} else if (userChoice + computerChoice === "rockscissors" ||
+ userChoice + computerChoice === "scissorpaper" || 
+ userChoice + computerChoice === "paperrock"  ) {
+    return "YOU WIN";
 } else {
-    return "YOU LOSE"
+    return "YOU LOSE";
 }
-
 
 }
